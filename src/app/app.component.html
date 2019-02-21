@@ -1,0 +1,14 @@
+<app-header></app-header>
+
+<main>
+
+    <h1>Angular Router</h1>
+    <nav>
+      <a [routerLink]="[/chat]" routerLinkActive="active">Test chat</a>
+      <a routerLink="/profile" routerLinkActive="active">Test profile</a>
+    </nav>
+    <router-outlet></router-outlet>
+
+</main>
+
+<app-footer></app-footer>
